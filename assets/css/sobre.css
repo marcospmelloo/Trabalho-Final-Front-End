@@ -35,10 +35,12 @@ nav ul a {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 50px;
+  font-weight: 700;
 }
 
 .text {
+  margin-top: 2rem;
   font-size: 1.5rem;
 }
 
@@ -52,6 +54,39 @@ nav ul a {
   margin-bottom: 10rem;
 }
 
+.card {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03) translateY(-5px);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  background-color: black;
+  border: black;
+}
+
+.btn:hover {
+  background-color: #0f0cca;
+  border: black;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.disabled {
+  background-color: gray !important;
+  &:hover {
+    background-color: gray !important;
+  }
+}
 
 
 footer {
@@ -68,4 +103,5 @@ footer {
 
 footer p {
   color: white;
+  margin: 0;
 }
