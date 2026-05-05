@@ -25,19 +25,25 @@ nav ul a {
 }
 
 .content section {
-    text-align: center;
-    margin-top: 5rem;
+  text-align: center;
+  margin-top: 5rem;
 }
 
 .title {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .text {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
-
+.conheca-a-equipe {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 
 
@@ -49,8 +55,10 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  bottom: 0;
+  position: fixed;
 }
 
 footer p {
-    color: white;
+  color: white;
 }
