@@ -159,3 +159,92 @@ footer {
   bottom: 0;
   position: fixed;
 }
+
+@media (max-width: 1024px) {
+  .cards {
+    gap: 3rem;
+  }
+
+  .html, .css, .js {
+    width: 16rem;
+    height: 18rem;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  .titulo h2 {
+    font-size: 36px;
+  }
+
+  .button {
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 8rem;
+  }
+
+  .html, .css, .js {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  h1 {
+    font-size: 55px;
+  }
+
+  .titulo h2 {
+    font-size: 30px;
+  }
+
+  ul {
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    height: 4rem;
+  }
+
+  ul {
+    gap: 1.5rem;
+  }
+
+  ul li a {
+    font-size: 14px;
+  }
+
+  .titulo {
+    margin-top: 6rem;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  .titulo h2 {
+    font-size: 22px;
+  }
+
+  .html, .css, .js {
+    width: 15rem;
+    height: 17rem;
+  }
+
+  .button {
+    width: 9rem;
+    font-size: 13px;
+  }
+
+  .cards {
+    margin-bottom: 6rem;
+  }
+}
