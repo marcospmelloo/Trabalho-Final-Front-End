@@ -1,50 +1,51 @@
+/* Importando o arquivo de reset */
 @import url(reset.css);
 
+/* Definindo a cor de fundo e cor de fonte padrão da página */
 body {
   background-color: rgb(19, 18, 88);
   color: white;
 }
 
+/* Nesta estilização, utilizei aninhamento dos seletores.
+   O que ajuda na organização do código */
 nav {
   height: 5rem;
-  width: 100%;
   background-color: black;
-  color: aliceblue;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
+
+  ul {
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
 }
 
-nav ul {
-  display: flex;
-  gap: 5rem;
-  list-style: none;
-  padding-left: 0px;
-  margin-bottom: 0px;
-}
-
-nav ul a {
-  text-decoration: none;
-  color: white;
-}
-
-.content section {
+section {
   text-align: center;
   margin-top: 5rem;
+
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
 }
 
-.title {
-  font-size: 50px;
-  font-weight: 700;
-}
-
-.text {
-  margin-top: 2rem;
-  font-size: 1.5rem;
-}
-
-.conheca-a-equipe {
+.cards-section {
   display: flex;
   flex-direction: row;
   gap: 4rem;
@@ -54,40 +55,32 @@ nav ul a {
   margin-bottom: 10rem;
 }
 
+/* Efeito de zoom nos cards de contato */
 .card {
   transition:
     transform 0.2s ease,
     box-shadow 0.3s ease;
-}
 
-.card:hover {
-  transform: scale(1.03) translateY(-5px);
-  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-}
-
-.btn {
-  background-color: black;
-  border: black;
-}
-
-.btn:hover {
-  background-color: #0f0cca;
-  border: black;
+  &:hover {
+    transform: scale(1.03) translateY(-5px);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  }
 }
 
 .card-body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
 
-.disabled {
-  background-color: gray !important;
-  &:hover {
-    background-color: gray !important;
+  .btn {
+    background-color: black;
+    border: black;
+
+    &:hover {
+      background-color: #0f0cca;
+    }
   }
 }
-
 
 footer {
   background-color: black;
@@ -99,9 +92,9 @@ footer {
   align-items: center;
   bottom: 0;
   position: fixed;
-}
 
-footer p {
-  color: white;
-  margin: 0;
+  p {
+    color: white;
+    margin: 0;
+  }
 }
