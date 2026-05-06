@@ -19,68 +19,73 @@ function load_divArea(topico){
                 </p>
             </div>`
             ,
-            'tagsBasicas':`
-                <div class="tagsBasicas_js">
-                    <h1> Tags Básicas </h1>
-                    <p> As tags básicas são ótimo apra começar, elas já te dão um bom norte de como criar alguma no navegador.
-                        As tags básicas mais importantes são: </p>
+            'fontes':`
+                <div class="fontes_js">
+                    <h1> F o n t e s </h1>
+                    <p> Alguns códigos CSS de fontes são muito importante para manter um boa estilização: </p>
+                    <br>
 
                     <br>
 
-                    <p> &lt;h1&gt;
-                        <br>
-                        &lt;h2&gt;
-                        <br>
-                        &lt;h3&gt;
-                        <br>
-                        &lt;h4&gt;
-                        <br>
-                        &lt;h5&gt;
-                        <br>
-                        &lt;h6&gt;
-                        <br>
-                        Essas tags são para títilos e seus respectivos tamanhos. O &lt;h1&gt; por exemplo, é o que tem o título maior
-                        e a tag &lt;h6&gt; é a que tem o título menor.
-                    </p>
-
-                    <br> 
-                    <br>
-
-                    <p> A tag &lt;p&gt; no HTML é utilizada para definir parágrafos de texto, representando um elemento de 
-                        bloco que agrupa conteúdo. </p>
-
-                    <br> 
-                    <br>
-
-                    <p> A Tag &lt;br&gt; é uma tag que dá espaço vertical, que seria um pular linha. Muito boa para organização.</p>
+                    <p> color: é um código que dá cor a um fonte. Ex: 'color: white;'
+                        <br><br>
+                        font-size: é outro código bem bacana que aumenta/diminui o tamanho da fonte. Ex: 'font-size: 18px;'
+                        <br><br>
+                        font-family: aqui é outro bom código para o tipo de fonte. Ex: font-family: "Raleway", sans-serif;
+                        <br><br>
+                        
                 </div>`
                 ,
-                'tagDeLink':`
-                    <div class="tagDeLink_js">
-                        <h1> Tags de Links </h1>
+                'estilizacao':`
+                    <div class="estilizacao_js">
+                        <h1> Como Declarar Estilização </h1>
+
+                        <p>Para estilizarmos o código por 'class' ou 'id', precisamos seguir a seguinte sintaxe de
+                           . para class e @ para id. E para estilizar um tag não precisamos inserir . ou @.</p>
+
+                        <br><br>
+
+                        <p> .algumaCLASS serve para fazer uma chamada de CLASSE para estilizar.</p>
 
                         <br>
 
-                        <p> A tag &lt;a&gt; é usada para criar hiperlinks, conectando documentos, arquivos, seções da mesma página
-                        ou endereços externos. </p>
+                        <p> @algumID serve para fazer uma chamada de ID para estilizar.</p>
 
                         <br>
 
-                        <p> Um bom exemplo seria &lt;a href="www.google.com"&gt; Site do google &lt;/a&gt; </p>
+                        <p> algumaTAG serve para fazer uma chamada de TAG para estilizar.</p>
+
                     </div>
                 `
                 ,
-                'tagsDeImagem':`
-                    <div class="tagDeImagem_js">
-                        <h1> Tag de Imagem </h1>
+                'tamanhos':`
+                    <div class="tamanhos_js">
+                        <h1> Tamanhos e direções </h1>
 
                         <br>
 
-                        <p> A tag &lt;img&gt; é usada para carregar uma imagem local ou na internet.</p>
+                        <p> Em CSS precisamos informar geralmente o tamanho, largura e posições de onde nossas TAGs estilizadas ficaram.</p>
+
+                        <br><br>
+
+                        <p> height: e width: são propriedades que de altura e largura Ex: height: 5rem; width: 100%; </p>
 
                         <br>
 
-                        <p> Um bom exemplo seria &lt;img href="./assets/imagem.jpg" alt="Foto de um carro"&gt; </p>
+                        <p> display: flex; serve para ativar o flexbox para organizar os elementos filhos dentro de um conteiner pai. </p>
+
+                        <br>
+
+                        <p> flex-direction: column; ou flex-direction: row; 
+                            serve para dar direção/ organizar em coluna(column) ou row(linha). </p>
+
+                        <br>
+
+                        <p> justify-content: center; serve para centralizar horizontalmente os itens filhos ao longo do eixo principal</p>
+
+                        <br>
+
+                        <p> align-items: center; serve para centralizar verticalmente os itens filhos ao longo do eixo principal</p>
                     </div>
                 `
     };
