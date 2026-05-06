@@ -98,14 +98,14 @@ footer {
 /*⬆️---------- F O O T E R ----------⬆️*/
 
 /* ⬇️ Códigos CSS para Estilização via JS ⬇️ */
-.primeiroCodigoCSS_js, .tagsBasicas_js, .tagDeLink_js, .tagDeImagem_js {
+.primeiroCodigoCSS_js, .fontes_js, .estilizacao_js, .tamanhos_js {
     margin: 2rem;
 }
-.primeiroCodigoCSS_js h1, .tagsBasicas_js h1, .tagDeLink_js h1, .tagDeImagem_js h1{
+.primeiroCodigoCSS_js h1, .fontes_js h1, .estilizacao_js h1, .tamanhos_js h1{
     color: brown;
     margin-bottom: 15px;
 }
 
-.primeiroCodigoCSS_js p, .tagsBasicas_js p, .tagDeLink_js p, .tagDeImagem_js p{
+.primeiroCodigoCSS_js p, .fontes_js p, .estilizacao_js p, .tamanhos_js p{
     font-size: 20px;
 }
