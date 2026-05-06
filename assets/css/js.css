@@ -1,0 +1,63 @@
+@import url(reset.css);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 5rem;
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+}
+
+.ul_header{
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+}
+
+.a_header{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#Div_List{
+    padding-left: 1.5rem;
+    background-color: #F7DF1E;
+    width: 20rem;
+    height: auto;
+}
+
+.lista{
+  font-size: large;
+  line-height: 2;
+}
+
+footer{
+  background-color: black;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  position: fixed;
+}
+
+.p_footer{
+    color: white;
+}
