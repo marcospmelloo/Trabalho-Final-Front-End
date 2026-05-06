@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Incluindo o arquivo CSS abaixo, é possível sobrescrever estilizações padrão do Bootstrap.
+    Ou seja: Os estilos importados na linha anterior são sobrescritos pelos seguintes-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../assets/css/sobre.css">
 
@@ -22,7 +24,7 @@
     </ul>
   </nav>
 
-  <div class="content">
+  <div>
 
     <section class="sobre container">
 
@@ -44,7 +46,7 @@
         Se você busca a informação essencial sem enrolação para aplicar no seu código imediatamente,
         você está no lugar certo.
       </p>
- 
+
     </section>
 
     <section class="equipe container">
@@ -59,8 +61,11 @@
 
   </div>
 
-  <div class="conheca-a-equipe container">
+  <!-- Início dos cards utilizando Bootstrap -->
 
+  <div class="cards-section container">
+
+    <!-- Inicio do card -->
     <div class="card" style="width: 18rem;">
       <img src="../assets/img/profile-photos/elionardo.png" class="card-img-top" alt="Foto do integrante">
       <div class="card-body">
@@ -69,11 +74,12 @@
         <div class="text-center">
           <a target="_blank" href="https://github.com/elionardosantos" class="btn btn-primary">GitHub</a>
           <a target="_blank" href="https://www.linkedin.com/in/elionardo-s-santos" class="btn btn-primary">LinkedIn</a>
-
         </div>
       </div>
     </div>
+    <!-- Final do card -->
 
+    <!-- Inicio do card -->
     <div class="card" style="width: 18rem;">
       <img src="../assets/img/profile-photos/marcos.jpg" class="card-img-top" alt="Foto do integrante">
       <div class="card-body">
@@ -81,25 +87,28 @@
         <p class="card-text text-center">Desenvolvedor da página Home</p>
         <div class="text-center">
           <a target="_blank" href="https://github.com/marcospmelloo" class="btn btn-primary">GitHub</a>
-          <a target="_blank" href="https://www.linkedin.com/in/marcos-paulo-mello-6b87ab375" class="btn btn-primary">LinkedIn</a>
-
+          <a target="_blank" href="https://www.linkedin.com/in/marcos-paulo-mello-6b87ab375"
+            class="btn btn-primary">LinkedIn</a>
         </div>
       </div>
     </div>
+    <!-- Final do card -->
 
+    <!-- Inicio do card -->
     <div class="card card-shine-effect" style="width: 18rem;">
       <img src="../assets/img/profile-photos/rafael.jpeg" class="card-img-top" alt="Foto do integrante">
       <div class="card-body">
         <h5 class="card-title text-center">Rafael Albino Ribeiro</h5>
-        <p class="card-text text-center">Desenvolvedor da página CSS</p>
+        <p class="card-text text-center">Desenvolvedor da página de conteúdo CSS</p>
         <div class="text-center">
           <a target="_blank" href="https://github.com/albino57" class="btn btn-primary">GitHub</a>
           <a target="_blank" href="https://www.linkedin.com/in/rafaelalbino57" class="btn btn-primary">LinkedIn</a>
-
         </div>
       </div>
     </div>
+    <!-- Final do card -->
 
+    <!-- Inicio do card -->
     <div class="card" style="width: 18rem;">
       <img src="../assets/img/profile-photos/phelipe.jpg" class="card-img-top" alt="Foto do integrante">
       <div class="card-body">
@@ -108,40 +117,40 @@
         <div class="text-center">
           <a target="_blank" href="https://github.com/phelipe1327-cell" class="btn btn-primary">GitHub</a>
           <a target="_blank" href="" class="btn btn-primary disabled">LinkedIn</a>
-
         </div>
       </div>
     </div>
+    <!-- Final do card -->
 
+    <!-- Inicio do card -->
     <div class="card" style="width: 18rem;">
-      <img src="../assets/img/profile-photos/default-user.jpg" class="card-img-top" alt="Foto do integrante">
+      <img src="../assets/img/profile-photos/marcelo.jpg" class="card-img-top" alt="Foto do integrante">
       <div class="card-body">
         <h5 class="card-title text-center">Marcelo Pozzato Rabello Mayrinck</h5>
-        <p class="card-text text-center">Desenvolvedor da página ...</p>
+        <p class="card-text text-center">Desenvolvedor da página de conteúdo HTML</p>
         <div class="text-center">
-          <a target="_blank" href="" class="btn btn-primary disabled">GitHub</a>
-          <a target="_blank" href="" class="btn btn-primary disabled">LinkedIn</a>
-
+          <a target="_blank" href="https://github.com/marceloprmayrinck" class="btn btn-primary">GitHub</a>
+          <a target="_blank" href="https://www.linkedin.com/in/marcelo-mayrinck" class="btn btn-primary">LinkedIn</a>
         </div>
       </div>
     </div>
+    <!-- Final do card -->
 
+    <!-- Inicio do card -->
     <div class="card" style="width: 18rem;">
       <img src="../assets/img/profile-photos/default-user.jpg" class="card-img-top" alt="Foto do integrante">
       <div class="card-body">
         <h5 class="card-title text-center">Matheus da Silva Schmid Lahr</h5>
-        <p class="card-text text-center">Desenvolvedor da página ...</p>
+        <p class="card-text text-center">Desenvolvedor da página de JavaScript</p>
         <div class="text-center">
           <a target="_blank" href="" class="btn btn-primary disabled">GitHub</a>
           <a target="_blank" href="" class="btn btn-primary disabled">LinkedIn</a>
-
         </div>
       </div>
     </div>
-    
+    <!-- Final do card -->
 
   </div>
-
 
   <footer>
     <p>© 2026 Mini‑curso Front‑End</p>
